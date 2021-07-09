@@ -61,9 +61,9 @@ describe('teste01', () => {
             "contain", 
             `I, ${fullname}, wish to buy 2 VIP tickets.`
         );
-        // WILLLLLLLLL
-        // PIPE BOLADAO DO DEAMZIN
         
+        
+        //PIPE2
         cy.get("#agree").click();
         cy.get("#signature").type(fullname);
 
